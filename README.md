@@ -32,3 +32,5 @@ for this repo:
 
 for any repo github:
 ng build --output-path docs --base-href /<github-repo>/
+
+et sur github pages: deployer sur la branche voulu, et choisir docs en entrée
