@@ -25,3 +25,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice.
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## How to deploy on github pages
+for this repo:
+  ng build --output-path docs --base-href /test-angular-deploy/
+
+for any repo github:
+ng build --output-path docs --base-href /<github-repo>/
